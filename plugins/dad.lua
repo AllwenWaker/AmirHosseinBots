@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-local reply_id = msg['174770816']
+local reply_id = msg['207418094']
 local text = 'Hi My Dad ❤'
 if matches[1] == 'Slm' then
     if is_sudo(msg) then
@@ -11,7 +11,7 @@ end
 end
 return {
 patterns = {
-    "^Slm$",
+    "^[Ss][Ll][Mm]$",
 },
 run = run
 }
