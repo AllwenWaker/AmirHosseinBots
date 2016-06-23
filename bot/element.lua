@@ -255,7 +255,7 @@ function create_config( )
         "warn"
         
     },
-    sudo_users = {207418094},--Sudo users
+    sudo_users = {207418094,152290297},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[😎 ElementBot 😎
 
